@@ -1,6 +1,10 @@
 # Solutions Architect Portfolio Website
+[![Deploy static site to GitHub Pages](https://github.com/MastareeColnel/solutions-architect-web-app/actions/workflows/pages.yml/badge.svg)](https://github.com/MastareeColnel/solutions-architect-web-app/actions/workflows/pages.yml)
 
 A static portfolio website focused on AWS Solutions Architecture, Terraform provisioning, PowerShell automation, and GitHub/Git workflows.
+
+## Live Site
+- https://mastareecolnel.github.io/solutions-architect-web-app/
 
 ## Live Theme
 - Visual style: black "midnight city" with cloud-technology accents
@@ -15,10 +19,10 @@ A static portfolio website focused on AWS Solutions Architecture, Terraform prov
 ## Project Structure
 ```text
 .
-├── index.html
-├── style.css
-├── DOCUMENTATION.md
-└── README.md
+|-- index.html
+|-- style.css
+|-- DOCUMENTATION.md
+`-- README.md
 ```
 
 ## Sections
@@ -72,6 +76,11 @@ git branch -M main
 git remote add origin https://github.com/<your-username>/<your-repo>.git
 git push -u origin main
 ```
+
+## CI/CD
+Yes. This repo now has a GitHub Actions pipeline that deploys to GitHub Pages on each push to `main`.
+- CI part: workflow trigger and execution in GitHub Actions
+- CD part: automatic deployment to GitHub Pages
 
 ## Notes
 - Keep `DOCUMENTATION.md` for detailed project documentation.
